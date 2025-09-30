@@ -5,6 +5,10 @@
     box-sizing: border-box;
     list-style: none;
 }
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
 
 li {
     margin: 20px;
@@ -28,7 +32,6 @@ header {
 
 /* utility */
 
-
 .m-bottom-10 {
     margin-bottom: 10px;
 }
@@ -45,16 +48,15 @@ header {
     padding-top: 40px;
 }
 
-
-/* container */
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
 .text-large {
     font-size: 30px;
+
 }
+/* container */
+
+
+
+
 
 /* common */
 
@@ -62,6 +64,9 @@ header {
 
 
 /* uncommon */
+
+.task
+
 
 #logo {
     vertical-align: middle;
