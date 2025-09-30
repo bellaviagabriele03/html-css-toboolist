@@ -3,10 +3,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
 }
 
-/* utilies */
+/* utility */
+.m-bottom-10 {
+    margin-bottom: 10px;
+}
 
+.m-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.m-bottom-30 {
+    margin-bottom: 30px;
+}
 
 
 /* container */
+.container {
+    width: 80%;
+    margin: 80px;
+}
+
+
+/* common */
