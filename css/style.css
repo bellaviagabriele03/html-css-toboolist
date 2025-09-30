@@ -8,6 +8,7 @@
 }
 li {
     margin: 20px;
+    font-size: 20px;
 }
 
 /* utility */
@@ -36,7 +37,7 @@ li {
 
 /* common */
 .text-large {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 
