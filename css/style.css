@@ -8,14 +8,16 @@
 .container {
     width: 80%;
     margin: 0 auto;
+    max-width: 600px;
 }
 
 li {
-    margin: 20px;
-    font-size: 20px;
+    margin: 5px;
+    font-size: 15px;
 }
 ul {
     background-color: white;
+
     
 }
 
@@ -52,10 +54,27 @@ header {
     font-size: 30px;
 
 }
+.bg-button {
+    padding: 5px;
+    background-color:lightblue;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid lightblue;
+    
+}
+ .bg-button-2 {
+    padding: 5px;
+    background-color: white;
+    color: gray;
+    border-radius: 5px;
+    border: 2px solid black;
+ }
 /* container */
 
 
-
+a {
+    text-decoration-line: none;
+}
 
 
 /* common */
@@ -65,7 +84,17 @@ header {
 
 /* uncommon */
 
-
+.button-size {
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.r-bottom {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
 
 
 #logo {
@@ -82,9 +111,9 @@ header {
 /* green circle */
 .green-circle {
     display: inline-block;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
+    width: 2opx;
+    height: 20px;
+    line-height: 20px;
     border-radius: 50%;
     text-align: center;
     border: green solid 2px;
@@ -92,9 +121,9 @@ header {
 
 .red-circle {
     display: inline-block;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
     border-radius: 50%;
     text-align: center;
     border: red solid 2px;
@@ -105,7 +134,7 @@ header {
     width: 85px;
     height: 40px;
     line-height: 40px;
-    border-radius: 20%;
+    border-radius: 20px;
     text-align: center;
     background-color: blue;
     color: white;
@@ -115,7 +144,7 @@ header {
     width: 85px;
     height: 40px;
     line-height: 40px;
-    border-radius: 20%;
+    border-radius: 20px;
     text-align: center;
     background-color: rgba(206, 206, 12, 0.925);
     color: white;
@@ -125,7 +154,7 @@ header {
     width: 85px;
     height: 40px;
     line-height: 40px;
-    border-radius: 20%;
+    border-radius: 20px;
     text-align: center;
     background-color: pink;
     color: white;
@@ -136,7 +165,7 @@ header {
     width: 85px;
     height: 40px;
     line-height: 40px;
-    border-radius: 20%;
+    border-radius: 20px;
     text-align: center;
     background-color: rgb(163, 0, 163);
     color: white;
@@ -147,7 +176,7 @@ header {
     width: 85px;
     height: 40px;
     line-height: 40px;
-    border-radius: 20%;
+    border-radius: 20px;
     text-align: center;
     background-color: orange;
     color: white;
@@ -157,7 +186,7 @@ header {
     width: 100px;
     height: 40px;
     line-height: 40px;
-    border-radius: 20%;
+    border-radius: 20px;
     text-align: center;
     background-color: aquamarine;
     color: white;
